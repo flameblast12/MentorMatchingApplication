@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MentorMatchingApplication</string>
+    <string name="choose_which_you_are">어떤 사람을 원하시나요?</string>
+    <string name="Join_Mentor">멘토 찾기</string>
+    <string name="Join_Mentee">멘티 찾기</string>
+    <string name="login">로그인</string>
+    <string name="logout">로그아웃</string>
+    <string name="signup">회원가입</string>
+    <string name="submit">등록</string>
 </resources>
