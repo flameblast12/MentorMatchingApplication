@@ -35,7 +35,9 @@ public class LoginActivity extends AppCompatActivity {
         LogIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "로그인에 실패했습니다.", Toast.LENGTH_LONG).show();
+               // Toast.makeText(getApplicationContext(), "로그인에 실패했습니다.", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(LoginActivity.this, ClassListView.class);
+                startActivity(intent);
             }
         });
 }

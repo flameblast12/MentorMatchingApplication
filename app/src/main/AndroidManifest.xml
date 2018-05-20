@@ -19,6 +19,8 @@
         <activity android:name=".LoginActivity" android:label="@string/login">
         </activity>
         <activity android:name=".SignupActivity" android:label="@string/signup">
+    </activity>
+        <activity android:name=".ClassListView" android:label="학과 선택">
         </activity>
     </application>
 
