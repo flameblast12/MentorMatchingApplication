@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     private Button LogIn;
@@ -36,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                // Toast.makeText(getApplicationContext(), "로그인에 실패했습니다.", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(LoginActivity.this, ClassListView.class);
+                Intent intent = new Intent(LoginActivity.this, MentorClassListView.class);
                 startActivity(intent);
             }
         });

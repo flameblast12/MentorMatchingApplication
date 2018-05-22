@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.032" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Mentor"
         android:layout_width="175dp"
         android:layout_height="210dp"
         android:layout_marginBottom="8dp"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.459" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Mentee"
         android:layout_width="170dp"
         android:layout_height="210dp"
         android:layout_marginBottom="8dp"
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.459" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/LogoutButton"
         android:layout_width="286dp"
         android:layout_height="43dp"
         android:layout_marginBottom="8dp"
@@ -60,9 +60,9 @@
         android:layout_marginTop="8dp"
         android:text="@string/logout"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/Mentee"
         app:layout_constraintHorizontal_bias="0.431"
-        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/Mentor"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.805" />
 
