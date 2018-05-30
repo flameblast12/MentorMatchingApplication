@@ -40,9 +40,9 @@ public class SelectScreen extends AppCompatActivity {
         Logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SelectScreen.this, LoginActivity.class);
+
                 Toast.makeText(getApplicationContext(), "로그아웃하셨습니다.", Toast.LENGTH_LONG).show();
-                startActivity(intent);
+                finish();//////////////////////로그인 화면으로 돌아가서 아이디 패스워드 지우기
             }
         });
     }

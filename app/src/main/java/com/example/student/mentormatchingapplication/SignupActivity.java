@@ -8,7 +8,7 @@ public class SignupActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.select_which);
+        setContentView(R.layout.signup_screen);
 
     }
 }
